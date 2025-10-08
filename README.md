@@ -28,7 +28,11 @@ Then navigate to the root directory and Run `npm install` to install the necessa
 Then, run `npm start` to start the server.
     
     npm start
-    
+
+## Populate db
+
+    curl -X POST -H "Content-Type: application/json" -d @data.json http://localhost:3000/api/blogs
+
 ## Roadmap / TODO:
 
 - Update the README with more detailed information about the application and how to use it.
